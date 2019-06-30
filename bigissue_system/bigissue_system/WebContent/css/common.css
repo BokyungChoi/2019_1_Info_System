@@ -1,0 +1,44 @@
+		
+@CHARSET "UTF-8";		
+	
+body {
+  font-family: 占쎈즻占쏙옙, Arial, sans-serif;
+}
+table {
+  border: 0px solid black;  /* �룯�뜃由� 占쎌넅筌롳옙 占쎈탵占쎌쁽占쎌뵥 占쎈뻻 1px嚥∽옙 占쎈릭占쎈연 占쎌쟿占쎌뵠占쎈툡占쎌뜍 占쎌넇占쎌뵥 */
+  border-collapse: collapse;
+}
+
+td {font-family: "占쎈즻占쏙옙"; font-size: 12pt; color:#595959; font-weight:normal; border-collapse: collapse; border: 0px solid;}
+th {font-family: "占쎈즻占쏙옙"; font-size: 12pt; color:#000000; font-weight:bold; border-collapse: collapse; border: 0px solid;}
+
+/* 占쎈�믭옙�뵠�뇡占� 占쎈엘占쎈쐭 */
+  .table_header
+  { border-style:solid;
+  	 height:30px;
+	 border-left-color:#FFF0F5; 
+	 border-top-color:#FFF0F5;
+	 border-right-color:#FF8E99;
+	 border-bottom-color:#FF8E99;
+	 background-color:#FFF0F5; }
+
+/* 占쎈�믭옙�뵠�뇡占� 占쎈쑓占쎌뵠占쏙옙 */
+  .table_data
+  { border-style:solid;
+     height:25px;
+	 border-left-color:#FFF0F5;
+	 border-top-color:#FFF0F5;
+	 border-right-color:#FF8E99;
+	 border-bottom-color:#FF8E99;
+	 background-color:#FFF0F5; } 
+
+/* 筌롳옙占쎈뼒域밸챶�봺占쎈굡占쎌벥 占쎄맒占쎈뼊 caption 占쎌겫占쎈열 */
+  .grid_caption
+  {  width:780px;
+	  border-color:#9F9F9F!important;/*釉붾옓*/
+	  border-style:solid!important;
+	  focuscolor:#FF7A85; 
+	  backcoloralternate:#FFF0F5; /*�솕�씠�듃*/
+	  vscroll.margin-top:23;}
+	  
+	  
